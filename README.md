@@ -12,7 +12,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 ## My Response
-Let $A = (V_1, E_1)$ and $B = (V_2, E_2)$ both be graphs that have the same number of nodes and are each completely connected.  Then let $f$ be the function $f: A \rightarrow B$.  Then since $A$ and $B$ both have the same number nodes the function $f$ that maps $A$ onto $B$ will be one to one, which satisfies the need for bijection.  And since both graphs are completely connected there will always be an edge in $A$ that corresponds to an edge in $B$.  
+Let $A = (V_1, E_1)$ and $B = (V_2, E_2)$ both be graphs that have the same number of nodes and are each completely connected.  Then let $f$ be the function $f: A \rightarrow B$.  Then using $f$ we map the first node of $A$ to the first node of $B$, and then the second of $A$ to the second of $B$ and continue this until we reach the final node then the function $f$ mapping $A$ onto $B$ is shown to be one to one, as there is just one node in $A$ to one node in $B$.  And since both graphs will have the same number of edges, becaues they have the same number of nodes and are compmletely connected there will always be an edge in $A$ that corresponds to an edge in $B$.  
+
 $\therefore$ Two graphs $A$ and $B$ must be isomorphic if they have the same number of nodes and are each completely connected.
 
-I think I have the right idea but I'm a little unsure as how to word the function definition
