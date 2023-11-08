@@ -10,3 +10,7 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+## My Response
+Let $A$ and $B$ both be graphs that have the same number of nodes and are each completely connected.  Then let $f$ be a function that maps $A$ onto $B$ such that each node in $A$ maps to only one node in $B$.  Then this function is both one to one as well as onto which satisfies the need for bijection.  And since both graphs are completely connected there will always be an edge in $A$ that corresponds to an edge in $B$.  
+$\therefore$ Two graphs $A$ and $B$ must be isomorphic if they have the same number of nodes and are each completely connected.
